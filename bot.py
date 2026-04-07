@@ -30,9 +30,9 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("8728800490:AAFxqfqcr9dIIdsXajuVBK6zmVPozHfzX6g")
+BOT_TOKEN = os.getenv("8728800490:AAHoAxL5xUOKGM5XWg16HidiFtBgJyAdBAg")
 MONGODB_URI = os.getenv("mongodb+srv://vikashsinghelectora_db_user:H1KNhWYgfE8fL0oc@cluster0.0rnbsp9.mongodb.net/?appName=Cluster0")
-DATABASE_NAME = os.getenv("DATABASE_NAME", "server_bot")
+DATABASE_NAME = os.getenv("new_,database")
 API_URL = os.getenv("https://retrostress.net/panel")
 API_KEY = os.getenv("95b36892794c8a59387aa4304dc55f43a573b44cdf3e8a6c9e16266db600d4ee")
 ADMIN_IDS = [int(id.strip()) for id in os.getenv("1165613821", "1165613821").split(",")]
