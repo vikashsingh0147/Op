@@ -31,6 +31,7 @@ BOT_START_TIME = datetime.now()
 BOT_TOKEN = "8728800490:AAFxqfqcr9dIIdsXajuVBK6zmVPozHfzX6g"
 MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://vikashsinghelectora_db_user:H1KNhWYgfE8fL0oc@cluster0.0rnbsp9.mongodb.net/?appName=Cluster0")
 FLARESOLVERR_URL = "https://retrostress.net/panel"
+YOUR_API_KEY = "95b36892794c8a59387aa4304dc55f43a573b44cdf3e8a6c9e16266db600d4ee"
 # ============ API CONFIGURATION ============
 DEFAULT_MAX_SLOTS = 1
 MAX_SLOTS_LIMIT = 50
