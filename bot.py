@@ -1,4 +1,6 @@
 # flameddos.py - Complete Working Bot with Individual Cooldown & Multiple Attacks
+import telebot
+from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import asyncio
 import logging
 from datetime import datetime, timedelta, timezone
@@ -19,6 +21,7 @@ from functools import wraps
 import html
 import uuid
 import os
+import time
 from dotenv import load_dotenv
 import threading
 import random
