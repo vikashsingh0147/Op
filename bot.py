@@ -51,8 +51,8 @@ RESELLER_PRICING = {
     '60d': {'price': 1250, 'seconds': 60 * 24 * 3600, 'label': '1 Season (60 Days)'}
 }
 
-DEFAULT_MAX_ATTACK_TIME = 200
-DEFAULT_USER_COOLDOWN = 180
+DEFAULT_MAX_ATTACK_TIME = 300
+DEFAULT_USER_COOLDOWN = 60
 
 # ============ MONGODB CONNECTION ============
 print("Connecting to MongoDB...")
