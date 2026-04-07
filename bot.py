@@ -21,6 +21,15 @@ import uuid
 import os
 from dotenv import load_dotenv
 
+from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
+import threading
+import random
+import string
+import requests
+import psutil
+import traceback
+import time
+
 # ============ CONFIGURATION ============
 BOT_OWNER = 1165613821
 BOT_START_TIME = datetime.now()
