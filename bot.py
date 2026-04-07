@@ -69,8 +69,7 @@ except Exception as e:
     print(f"❌ MongoDB connection error: {e}")
     exit(1)
 
-# ============ BOT INITIALIZATION ============
-bot = telebot.TeleBot(BOT_TOKEN)
+# ============ BOT INITIALIZATION ======
 
 # ============ GLOBAL VARIABLES ============
 pending_feedback = {}
