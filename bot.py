@@ -20,14 +20,10 @@ import html
 import uuid
 import os
 from dotenv import load_dotenv
-
 import threading
 import random
 import string
 import requests
-import psutil
-import traceback
-import time
 
 # ============ CONFIGURATION ============
 BOT_OWNER = 1165613821
