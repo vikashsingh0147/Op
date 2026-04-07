@@ -1,17 +1,25 @@
 # flameddos.py - Complete Working Bot with Individual Cooldown & Multiple Attacks
-import telebot
-from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
-import threading
-import os
-import random
-import string
-import re
+import asyncio
+import logging
+from datetime import datetime, timedelta, timezone
+from typing import Dict, Optional, List
 import requests
-import psutil
-import traceback
-import time
-from datetime import datetime, timedelta
-from pymongo import MongoClient
+from telegram import Update
+from telegram.ext import (
+    Application,
+    CommandHandler,
+    filters,
+    ContextTypes
+)
+import pymongo
+from pymongo import MongoClient, ASCENDING, DESCENDING
+from bson import ObjectId
+import re
+from functools import wraps
+import html
+import uuid
+import os
+from dotenv import load_dotenv
 
 # ============ CONFIGURATION ============
 BOT_OWNER = 1165613821
