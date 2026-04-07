@@ -21,7 +21,7 @@ import uuid
 import os
 from dotenv import load_dotenv
 
-from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
+import InlineKeyboardMarkup, InlineKeyboardButton
 import threading
 import random
 import string
